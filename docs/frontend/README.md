@@ -1,3 +1,7 @@
+---
+title: Front End
+---
+
 # Front End
 
 Le front end est conçu pour être indépendant des technologies serveurs (actuellement PHP/Symfony) utilisées.
@@ -17,8 +21,8 @@ Le fichier `package.json` défini également des scripts pour les différentes a
 * `yarn dev` : compile les assets en mode développement
 * `yarn watch` : compile les assets en mode développement, puis surveille les fichiers afin de recompilé si une modification est effectuée;
 * `yarn build`: compile les assets en mode production (càd avec minimification).
-* `yarn test` : lance les tests cypress (voir la [section sur cypress](#tests-cypress)) en mode headless. Des vidéos des tests sont enregistré dans le dossier `cypress/videos`.
-* `yarn cypress open` : lance l'interface cypress (voir la [section sur cypress](#tests-cypress)).
+* `yarn test` : lance les tests cypress (voir la [section sur cypress](/cypress/)) en mode headless. Des vidéos des tests sont enregistré dans le dossier `cypress/videos`.
+* `yarn cypress open` : lance l'interface cypress (voir la [section sur cypress](/cypress/)).
 
 ## Framework et bibliothèques
 
@@ -58,4 +62,3 @@ Ce dossier est divisé en plusieurs sous dossiers :
   * Les autres fichiers javascript sont des point d'entrées correspondant chacun à une page de l'application.
 * `.vuetify_ide_fixer.js` est un fichier contenant les définitions des composants vuetify, afin d'aider l'autocomplétion de certains ide (principalement PHPStorm/WebStorm).
 
-## Tests : Cypress

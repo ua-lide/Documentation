@@ -1,4 +1,5 @@
 ---
+title: Installation
 sidebarDepth: 2
 ---
 

@@ -13,7 +13,8 @@ module.exports = {
             '/',
             '/installation/',
             '/architecture/',
-            '/frontend/'
+            '/frontend/',
+            '/cypress/'
         ],
     }
 }
