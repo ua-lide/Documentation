@@ -1,5 +1,8 @@
 
 module.exports = {
+    dest: 'public',
+    description: 'Lide Project Documentation',
+    base: '/documentation/'
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
