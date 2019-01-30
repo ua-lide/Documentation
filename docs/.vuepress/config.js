@@ -14,6 +14,8 @@ module.exports = {
             '/installation/',
             '/architecture/',
             '/frontend/',
+            '/authentification/',
+            '/websocket/',
             '/cypress/'
         ],
     }
