@@ -1,19 +1,6 @@
----
-home: true
-heroImage: /hero.png
-heroText: LIDE
-tagline: Environnement de Développement Intégré en Ligne
-actionText: Installation →
-actionLink: /installation/
-footer: Licence GPL v3.0
-features:
-- title : Environnement de développement en ligne
-  details: Un environnement développement multi-language, fonctionnant dans le navigateur
-- title: Fait par des étudiants, pour des étudiants
-  details: Développé par des étudiants de Master d'Université d'Angers, à destination des étudiants de Licence. L'EDI est conçu pour être facile à prendre en main pour des étudiants sans expérience de développement.
-- title: Personnalisable
-  details: Grâce à Docker, il est aisé d'ajouter des environnement d'exécution pour différents languages. L'application peut ainsi s'adapter au cursus
----
+# LIDE : Environnement de développement Integré en ligne
+
+[Documentation du projet](https://ua-lide.gitlab.io/documentation)
 
 L’objectif de ce projet est de développer un environnement de développent
 en ligne accessible depuis un navigateur web classique (l’application doit au
@@ -32,3 +19,4 @@ pouvoir continuer leur projet en dehors de l’université. La cible peut être
 poussée jusqu’au étudiants de L3 voire M1 si les fonctionnalités proposées
 par l’application sont suffisamment avancées pour justifier une utilisation par
 ces étudiants.
+
