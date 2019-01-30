@@ -40,7 +40,7 @@ Pour le développement et la compilation, les outils suivants sont utilisés   :
 * [Cypress](https://www.cypress.io/) est un framework de tests end-to-end. Nous l'utilisons pour tester les en isolations les fonctionnalités du front end, mais aussi pour tester l'application dans son intégralité en simulant une utilisation dans le navigateur.
 * [EsLint](https://eslint.org/) est un linter, permettant l'analyse statique du code javascript. Il nous permet de définir des règles de code, qui si non respecté, leverons des erreurs à la compilations des assets.
 * [Prettier](https://github.com/prettier/prettier) permet le formatter de manière automatisé le code Javascript. Il permet d'imposer un style de code constant à travers toute l'application.
-* Divers loader webpack pour le traitements des fichiers .vue (vuejs) et scss.
+* Divers loader et plugins webpack pour le traitements des fichiers .vue (vuejs) et scss.
 
 
 ## Système de build : Webpack Encore

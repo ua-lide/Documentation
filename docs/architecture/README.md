@@ -55,6 +55,6 @@ Plus de détails sont disponnible dans la partie [Exécution du code utilisateur
 
 ### Module de déploiement automatisé des images Docker
 
-L'application met à disposition une API permettant d'automatisé le déploiement de nouvelle images docker pour l'exécution des programmes des utilisateurs. Cette API est utilisé par la partie Administration du serveur applicatif, et n'est accessible que par le serveur applicatif (via une authentification par SSL mutuelle).
+L'application met à disposition une API permettant d'automatisé le déploiement de nouvelle images docker pour l'exécution des programmes des utilisateurs. Cette API est utilisé par la partie Administration du serveur applicatif, et n'est accessible que par le serveur applicatif (via une authentification par SSL mutuel).
 
 Cette fonctionnalité est encore expérimentale.
