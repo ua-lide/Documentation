@@ -7,7 +7,7 @@ module.exports = {
     themeConfig: {
         repo: 'https://gitlab.com/ua-lide/documentation',
         nav: [
-            { text: 'Home', link: '/' },
+            { text: 'Accueil', link: '/' },
             { text: 'Architecture', link: '/architecture/' },
             { text: 'Front End', link: '/frontend/' },
         ],

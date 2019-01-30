@@ -12,7 +12,7 @@ Tous les chemins vers des dossiers et fichiers de cette page sont données par r
 
 ## Packages Manager : Yarn
 
-Nous utilisons [yarn](https://yarnpkg.com/fr/) pour la management des dépendances front-end.
+Le logiciel [yarn](https://yarnpkg.com/fr/) est utilisé pour la gestions des dépendances front-end.
 
 La listes des dépendances est définie dans le fichier `package.json`. Le rôle de chacune des dépendances est expliqué dans la section [Framework et bibliothèque](#framework-et-bibliotheques).
 
@@ -28,13 +28,13 @@ Le fichier `package.json` défini également des scripts pour les différentes a
 
 Le front end de l'application s'appuie sur [VueJS](https://vuejs.org/).
 
-Nous avons également inclus les packages suivants :
+Les packages suivants sont utilisés :
 
 * [Vuetify](https://vuetifyjs.com/en/) est un framework de components VueJS, développé selon les spécification Material Design. Il met a disposition des nombreux composants VueJS.
 * [Axios](https://github.com/axios/axios) est un client HTTP permettant d'effectuer des [XMLHttpRequest](https://developer.mozilla.org/fr/docs/Web/API/XMLHttpRequest) de manière simple, en retournant des Promises, facile à utilisé depuis les composants VueJS.
 * [Ace](https://ace.c9.io/) est un editeur de code.
 
-Pour le développement et la compilation, nous utilisons les outils suivants :
+Pour le développement et la compilation, les outils suivants sont utilisés   :
 
 * [Webpack Encore](https://symfony.com/doc/current/frontend.html), un wrapper pour Webpack mettant à disposition une API simple pour le bundling des fichiers javascript, le processing des fichiers CSS et JS, et la compilation et minification des assets. 
 * [Cypress](https://www.cypress.io/) est un framework de tests end-to-end. Nous l'utilisons pour tester les en isolations les fonctionnalités du front end, mais aussi pour tester l'application dans son intégralité en simulant une utilisation dans le navigateur.
