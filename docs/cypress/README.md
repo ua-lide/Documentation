@@ -30,9 +30,9 @@ Pour lancer les tests sur votre machine, les manipulations suivantes doivent êt
 ```json
 {
     // L'url de base pour accéder au serveur applicatif
-    "baseUrl": "http://lide.test/app_dev.php/",
+    "baseUrl": "https://lide.test/app_dev.php/",
     // L'url de base du serveur métier
-    "basePmaUrl" : "http://lide-pma.test/app_dev.php/", 
+    "basePmaUrl" : "https://lide-pma.test/app_dev.php/", 
     // Un couple username/password valide pour un utilisateur administrateur
     "admin_username" : "admin",
     "admin_pwd": "admin"
