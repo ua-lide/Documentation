@@ -18,7 +18,8 @@ module.exports = {
             '/frontend/',
             '/authentification/',
             '/websocket/',
-            '/cypress/'
+            '/cypress/',
+            '/websocket/'
         ],
     }
 }

@@ -2,7 +2,21 @@
 
 ## Fonctionnement du serveur Websocket
 
-TODO ratchet & boucle d'évenement.
+Le code du serveur websocket est contenu dans l'application serveur, dans le bundle `DockerManagerBundle`.
+
+Le serveur WebSocket s'appuie sur la bibliothèque PHP [Ratchet](http://socketo.me/).
+
+La commande pour lancer le serveur websocket est :
+
+```bash
+php bin/console lide:start-server
+```
+
+L'implémentation de cette commande est réalisé dans la classe `DockerManagerBundle\Command\WebSocketServerCommand`.
+
+Cette commande démarre un serveur websocket, dont l'implémentation est réalisé dans la classe `DockerManagerBundle\WebSocketServer\WebSocketServer`, implémentant l'interface `MessageComponentInterface` de Ratchet.
+
+Le serveur WebSocket fonctionne grâce à une boucle d'évenements. Sur cette boucle, nous ajoutons un timer qui toutes les 10ms, va appeler une fonction qui récupére les sorties de tous les programmes en cours d'exécution.  
 
 ## Protocole d'échange
 
