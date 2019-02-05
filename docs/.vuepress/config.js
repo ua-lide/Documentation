@@ -14,12 +14,12 @@ module.exports = {
         sidebar: [
             '/',
             '/installation/',
+            '/déploiement/',
             '/architecture/',
             '/frontend/',
             '/authentification/',
             '/websocket/',
             '/cypress/',
-            '/websocket/'
         ],
     }
 }

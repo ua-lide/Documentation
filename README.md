@@ -2,7 +2,7 @@
 
 [Documentation du projet](https://ua-lide.gitlab.io/documentation)
 
-L’objectif de ce projet est de développer un environnement de développent
+L’objectif de ce projet est de développer un environnement de développement
 en ligne accessible depuis un navigateur web classique (l’application doit au
 moins fonctionner sur Firefox et Chrome). Cet environnement doit permettre
 l’édition, la compilation et l’exécution de code simple directement depuis
@@ -19,4 +19,3 @@ pouvoir continuer leur projet en dehors de l’université. La cible peut être
 poussée jusqu’au étudiants de L3 voire M1 si les fonctionnalités proposées
 par l’application sont suffisamment avancées pour justifier une utilisation par
 ces étudiants.
-
