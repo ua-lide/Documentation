@@ -37,24 +37,25 @@ Voir la partie [FrontEnd](/frontend/).
 
 ### Gestion du code des utilisateurs
 
-Le code des utilisateur est géré par le bundle `APIProjectBundle`. Ce bundle met à disposition une API CRUD permettant : 
+Le code des utilisateur est géré par le bundle `APIProjectBundle`. Ce bundle met à disposition une API CRUD permettant :
 
-* La gestion de projets, c'est à dire un ensemble de fichiers. L'api permet de créer, modifier, supprimer et récupérer les projets de l'utilisateurs.
-* La gestions des fichiers d'un projets. Chaque fichier est lié à un projet. Les données concernant un fichiers (nom, chemin relatif à la racine du dossier du projet, date de création/dernière modification) sont stockées en base de données. Le contenu des fichiers est stockés dans le système de fichier du serveur. Le dossier où sont stockés les fichiers est défini dans les paramètre de l'application.
+* La gestion de projets, c'est à dire un ensemble de fichiers. L'api permet de créer, modifier, supprimer et récupérer les projets de l'utilisateur.
+* La gestions des fichiers d'un projets. Chaque fichier est lié à un projet. Les données concernant un fichier (nom, chemin relatif à la racine du dossier du projet, date de création/dernière modification) sont stockées en base de données. Le contenu des fichiers est stocké dans le système de fichier du serveur. Le dossier où sont stockés les fichiers est défini dans les paramètres de l'application.
 
 ### Compilation et exécution du code
 
-La compilation et l'exécution du code sont effectué dans des conteneurs dockers. La gestion de ses conteneurs sont effectué par un serveur WebSocket, auquel l'utilisateur se connecte. L'utilisateur envoie des commandes au serveur websocket, afin de :
+La compilation et l'exécution du code sont effectués dans des conteneurs dockers. La gestion de ses conteneurs sont effectués par un serveur WebSocket, auquel l'utilisateur se connecte. L'utilisateur envoie des commandes au serveur websocket, afin de :
 
 * Lancer la compilation et l'exécution d'un programme
 * Écrire sur l'entrée standard (stdin) d'un programme en cours d'exécution
-* Vérifier le status d'un programme
+* Vérifier le statut d'un programme
 * Forcer l'arrêt d'un programme
 
-Plus de détails sont disponnible dans la partie [Exécution du code utilisateur](/websocket/)
+Plus de détails sont disponibles dans la partie [Exécution du code utilisateur](/websocket/)
 
 ### Module de déploiement automatisé des images Docker
 
-L'application met à disposition une API permettant d'automatisé le déploiement de nouvelle images docker pour l'exécution des programmes des utilisateurs. Cette API est utilisé par la partie Administration du serveur applicatif, et n'est accessible que par le serveur applicatif (via une authentification par SSL mutuel).
+L'application met à disposition une API permettant d'automatisé le déploiement de nouvelles images docker pour l'exécution des programmes des utilisateurs. Cette API est utilisée par la partie Administration du serveur applicatif, et n'est accessible que par le serveur applicatif.
 
-Cette fonctionnalité est encore expérimentale.
+### Sécurisation
+La sécurisation de la communication entre les deux applications se fait via [SSL mutuel](https://onlinehelp.tableau.com/current/server/fr-fr/ssl_mutual_about.htm). Pour cela il faut générer les certificats (clients ET serveurs) pour chaque application. Vous pouvez obtenir ces certificats depuis une Autorité de Certification officielle (à utiliser en production) ou créer votre propre Autorité de Certification pour signer vos certificats (méthode choisie pour les développements). Vous trouverez les différentes étapes suivies pour générer l'Autorité de Certification et pour la signature des certificats sur ce [ tutoriel](https://jamielinux.com/docs/openssl-certificate-authority/introduction.html).

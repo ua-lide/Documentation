@@ -93,7 +93,6 @@ cd vagrant-set-up
 
 Modifiez `server-config.yml` situé dans le dossier `configuration` pour y mettre le chemin des sources du projet que vous venez de cloner :
 
-Modifiez `server-config.yml` situé dans le dossier `configuration` pour y mettre le chemin des sources du projet que vous venez de cloner :
 ```yaml
 - hostname: "web-front"
   ip: "192.168.50.4"
@@ -173,7 +172,7 @@ Puis lancer le serveur apache :
 sudo service apache2 restart
 ```
 
-La passphrase à entrée est `0f749a59` (si vous n'avez pas modifier les certificats)
+La passphrase à entrée est `0f749a59` (si vous n'avez pas modifié les certificats)
 
 Vous pouvez maintenant vous déconnecter de la VM.
 
