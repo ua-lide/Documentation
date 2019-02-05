@@ -14,7 +14,7 @@ module.exports = {
         sidebar: [
             '/',
             '/installation/',
-            '/déploiement/',
+            '/deploiement/',
             '/architecture/',
             '/frontend/',
             '/authentification/',
