@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Déploiement
 sidebarDepth: 2
 ---
 
