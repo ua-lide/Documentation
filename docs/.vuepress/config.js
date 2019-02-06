@@ -20,6 +20,7 @@ module.exports = {
             '/authentification/',
             '/websocket/',
             '/cypress/',
+            '/api/',
         ],
     }
 }
