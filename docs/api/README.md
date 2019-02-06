@@ -205,7 +205,7 @@ Reponse : code HTTP 200 (corps vide) si succès.
 
 Cette action supprime également tous les fichiers liés au projet.
 
-# API  de gestion des fichiers
+## API  de gestion des fichiers
 
 ### Récuperer tout les fichiers d'un projet
 
