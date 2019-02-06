@@ -1,6 +1,11 @@
+---
+title: API
+sidebarDepth: 2
+---
+
 # API
 
-## API de geestion des environnements
+## API de gestion des environnements
 
 Cette API disponible sur le serveur Docker a pour but de gérer l'environnement lié à Docker en permettant d'utiliser les fonctionnalités de base de Docker et plus particulièrement la création d'images soumises par les administrateurs.
 
